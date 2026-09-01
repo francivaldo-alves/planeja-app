@@ -100,8 +100,18 @@ body {
 }
 
 /* Content */
+/*
 .content {
   padding: 25px;
+}
+  */
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 25px;
 }
 
 /* Card */
@@ -112,11 +122,23 @@ body {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
 }
 
+/*
+
 .card {
   background-color: var(--branco);
   border-radius: 10px;
   padding: 25px;
   max-width: 500px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+  */
+
+.card {
+  width: 100%;
+  max-width: 550px;
+  background-color: var(--branco);
+  border-radius: 10px;
+  padding: 30px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
 }
 
