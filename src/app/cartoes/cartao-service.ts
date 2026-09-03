@@ -11,6 +11,8 @@ export class CartaoService {
 
   criar(dados: DadosCartaoForm): Observable<DetalhesCartao> {
     const url = 'http://localhost:8080/cartoes';
+    //const url = 'http://192.168.1.28:8080/cartoes';
+
     return this.http.post<DetalhesCartao>(url, dados);
   }
 }
